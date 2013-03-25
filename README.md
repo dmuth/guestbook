@@ -1,4 +1,3 @@
-
 # Guestbook App
 
 This is a sample guestbook app that I wrote in PHP, using a custom MVC 
@@ -15,6 +14,12 @@ to be made to Flickr's API to fetch a picture for each interest entered.
 
 ## Installation
 
+- Go into protected/sql/
+   - Update `user.sql` to have a different username or password if you wish
+   - Run the commands in `user.sql` as the database admin user
+      - `mysql -u admin_username -padmin_password < ./user.sql`
+   - Run the commands in `schema.sql` as the database user.
+      - `mysql -u guestbook_username -pguestbook_password < ./schema.sql`
 - Go into protected/config/
    - Season `db-dev.php` and `db-production.php` to taste.
    - Symlink one of those files to db.php, depending on whether 
