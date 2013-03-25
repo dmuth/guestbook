@@ -1,0 +1,11 @@
+
+#
+# Ignore vi swap files.
+#
+*.swp
+
+#
+# Ignore this symlink.
+#
+protected/config/db.php
+
