@@ -1,0 +1,50 @@
+
+.errors {
+	color: red;
+	border: 1px solid red;
+	width: 500px;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+.entry_id {
+	font-size: smaller;
+	float: right;
+}
+
+
+.guestbook {
+	padding-left: 100px;
+}
+
+.guestbook_line {
+	padding-bottom: 5px;
+}
+
+.entry {
+}
+
+.interest_list {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.interest {
+	float: left;
+	padding-right: 10px;
+}
+
+.message {
+	padding-top: 5px;
+}
+
+hr {
+	background-color: gray;
+	height: 1px;
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+

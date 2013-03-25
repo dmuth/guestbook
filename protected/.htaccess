@@ -1,0 +1,6 @@
+#
+# In the real world, I wouldn't be using Apache.
+#
+
+deny from all
+
